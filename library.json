@@ -1,13 +1,13 @@
 {
-  "machineName": "H5P.Column",
-  "title": "Column",
+  "machineName": "H5P.ActiveReaderChapter",
+  "title": "Active Reader Chapter",
   "description": "Content holder displaying content in a column.",
   "contentType": "instructional",
   "license": "MIT",
   "author": "Joubel",
   "majorVersion": 1,
-  "minorVersion": 16,
-  "patchVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 0,
   "runnable": 1,
   "fullscreen": 0,
   "embedTypes": [
@@ -19,12 +19,12 @@
   },
   "preloadedJs": [
     {
-      "path": "scripts/h5p-column.js"
+      "path": "scripts/h5p-active-reader-chapter.js"
     }
   ],
   "preloadedCss": [
     {
-      "path": "styles/h5p-column.css"
+      "path": "styles/h5p-active-reader-chapter.css"
     }
   ]
 }
