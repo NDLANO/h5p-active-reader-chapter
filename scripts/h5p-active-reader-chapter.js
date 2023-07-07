@@ -556,7 +556,7 @@ H5P.ActiveReaderChapter = (function (EventDispatcher) {
     'H5P.DocumentationTool',
     'H5P.MultiMediaChoice',
     'H5P.ActiveReaderTextInput',
-    'H5P.Keywords'
+    'H5P.KeywordSelector'
   ];
 
   /**
