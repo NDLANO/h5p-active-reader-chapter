@@ -26,5 +26,12 @@
     {
       "path": "styles/h5p-active-reader-chapter.css"
     }
+  ],
+  "editorDependencies": [
+    {
+      "machineName": "H5PEditor.ActiveReaderChapter",
+      "majorVersion": 1,
+      "minorVersion": 1
+    }
   ]
 }
