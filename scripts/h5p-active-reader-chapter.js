@@ -312,6 +312,10 @@ H5P.ActiveReaderChapter = (function (EventDispatcher) {
      * @return {Object}
      */
     self.getCurrentState = function () {
+      if (!self.getAnswerGiven()) {
+        return; // User has not yet interacted
+      }
+
       // Get previous state object or create new state object
       var state = (data.previousState ? data.previousState : {});
       if (!state.instances) {
