@@ -386,11 +386,11 @@ H5P.ActiveReaderChapter = (function (EventDispatcher) {
      * Get answer given
      * Contract.
      *
-     * @return {boolean} True, if all answers have been given.
+     * @return {boolean} True, if  one answer has been given.
      */
     self.getAnswerGiven = function () {
       return instances.reduce(function (prev, instance) {
-        return prev && (instance.getAnswerGiven ? instance.getAnswerGiven() : prev);
+        return prev || (instance.getAnswerGiven ? instance.getAnswerGiven() : prev);
       }, true);
     };
 
