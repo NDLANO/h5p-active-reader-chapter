@@ -86,3 +86,12 @@
 .h5p-interactive-book .h5p-my-fullscreen-button-enter {
   display: none;
 }
+
+/* Overrides for placeholder */
+.h5peditor-active-reader-chapter > .field-name-content > .content > .list > label {
+  display: none;
+}
+
+.h5peditor-active-reader-chapter > .field-name-content > .content .field-name-content > .content > .field.library > .h5p-editor-flex-wrapper {
+  display: none;
+}

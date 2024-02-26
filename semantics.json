@@ -58,8 +58,17 @@
                 "H5P.AdvancedText 1.1",
                 "H5P.Timeline 1.1",
                 "H5P.TrueFalse 1.8",
-                "H5P.Video 1.6"
-              ]
+                "H5P.Video 1.6",
+                "H5P.ActiveReaderPlaceholder 1.0"
+              ],
+              "paramOverrides": {
+                "options": [
+                  "1",
+                  "2",
+                  "3",
+                  "4"
+                ]
+              }
             },
             {
               "name": "useSeparator",
