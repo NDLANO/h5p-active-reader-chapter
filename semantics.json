@@ -12,6 +12,7 @@
         "label": "List of contents",
         "importance": "high",
         "type": "list",
+        "optional": true,
         "min": 1,
         "entity": "content",
         "field": {
